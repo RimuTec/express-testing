@@ -12,4 +12,4 @@ await configureApp(expressApp);
 // Start the web server
 const server = expressApp.listen(port, () => console.log(`listening at http://localhost:${port}`));
 
-export { server, expressApp as app };
+export { server, expressApp };
