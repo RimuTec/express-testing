@@ -5,7 +5,7 @@
       "docker-compose.yml",
    ],
    // The name of the following service has to match one of the services in docker-compose.yml
-   "service": "typescript-dev",
+   "service": "express-testing-dev",
    "workspaceFolder": "/work",
    "extensions": [
       "firsttris.vscode-jest-runner",
