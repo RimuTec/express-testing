@@ -23,6 +23,8 @@ services:
          # Allow AWS CLI and other tools to read an AWS profile. You can remove the following
          # If you are not using AWS. [Manfred, 29jul2022]
          - ~/.aws:/home/node/.aws
+      environment:
+         - EXPRESS_PORT=21003
       command: bash -c "/work/.devcontainer/init.sh && sleep infinity"
       networks:
          rimutec:

@@ -1,6 +1,6 @@
 // See https://aka.ms/vscode-remote/devcontainer.json for format details.
 {
-   "name": "TypeScript example",
+   "name": "Express Testing",
    "dockerComposeFile": [
       "docker-compose.yml",
    ],
