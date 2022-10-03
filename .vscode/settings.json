@@ -2,6 +2,9 @@
    "editor.formatOnSave": true,
    "editor.tabSize": 3,
    "git.rebaseWhenSync": true,
+   "jestrunner.codeLensSelector": "**/*.{micro,integration}.ts",
+   "jestrunner.configPath": "service/jest.config.ts",
+   "jestrunner.jestCommand": "node --no-warnings --experimental-vm-modules node_modules/jest/bin/jest --passWithNoTests --testMatch '**/?(*.)+(integration|micro).[jt]s?(x)'",
    "remote.autoForwardPorts": false,
    "remote.restoreForwardedPorts": false,
    "typescript.preferences.quoteStyle": "single"
